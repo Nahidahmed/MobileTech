@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="6254" systemVersion="14B25" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6247"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MyProfileViewController">
+            <connections>
+                <outlet property="departmentBtn" destination="2u5-y4-veY" id="10A-lD-q2H"/>
+                <outlet property="departmentLookUpTextField" destination="d1S-RH-ygu" id="dEJ-eu-1yE"/>
+                <outlet property="facilityLookUpTextField" destination="kaY-8l-dLI" id="Kt6-fM-xS0"/>
+                <outlet property="requiredDepartments" destination="I44-Rt-pMM" id="Acn-4j-T0K"/>
+                <outlet property="requiredFacilities" destination="w1I-2B-VbT" id="3ZS-5F-sQx"/>
+                <outlet property="requiredWorkers" destination="Mzd-Mm-vsD" id="yRr-KO-bSy"/>
+                <outlet property="selectedDepartmentsTextField" destination="UZZ-sJ-5DU" id="aRj-G1-Nhv"/>
+                <outlet property="selectedFacilitiesTextField" destination="fge-rX-kzE" id="LwX-1u-2DF"/>
+                <outlet property="selectedWorkersTextField" destination="GWo-mA-65g" id="1hy-U6-nEb"/>
+                <outlet property="view" destination="iN0-l3-epB" id="kCW-yf-GMq"/>
+                <outlet property="workerLookUpTextField" destination="axQ-n6-WCx" id="xb2-pq-w4o"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <userGuides>
+                <userLayoutGuide location="65" affinity="minY"/>
+            </userGuides>
+            <subviews>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Facilities" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kaY-8l-dLI">
+                    <rect key="frame" x="19" y="72" width="250" height="30"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Fvo-W2-I9J">
+                    <rect key="frame" x="277" y="75" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="U3t-sM-o5A"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="&gt;">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="facilityBtnArrowTap:" destination="-1" eventType="touchDown" id="gxo-jN-BRh"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="w1I-2B-VbT">
+                    <rect key="frame" x="12" y="80" width="21" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="Tqt-Jw-1Dd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="cdo-dB-HxZ" userLabel="Line">
+                    <rect key="frame" x="8" y="120" width="304" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2u5-y4-veY">
+                    <rect key="frame" x="277" y="128" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="L5C-Mk-5Hc"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="&gt;">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="departmentBtnArrowTap:" destination="-1" eventType="touchDown" id="bod-4Z-cBA"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I44-Rt-pMM">
+                    <rect key="frame" x="12" y="131" width="21" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="uJ3-c3-xoX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ehj-tJ-trO" userLabel="Line">
+                    <rect key="frame" x="8" y="172" width="304" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                </view>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Workers" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="axQ-n6-WCx">
+                    <rect key="frame" x="19" y="175" width="250" height="30"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vbI-aa-Vze">
+                    <rect key="frame" x="277" y="180" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="rwU-ZJ-iVA"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                    <state key="normal" title="&gt;">
+                        <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="workerBtnArrowTap:" destination="-1" eventType="touchDown" id="6Fi-aU-Al1"/>
+                    </connections>
+                </button>
+                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="*" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Mzd-Mm-vsD">
+                    <rect key="frame" x="12" y="182" width="21" height="21"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="21" id="A9d-QF-Hbj"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="17"/>
+                    <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9jo-md-NXd">
+                    <rect key="frame" x="10" y="516" width="301" height="40"/>
+                    <color key="backgroundColor" red="0.96862745100000003" green="0.58823529409999997" blue="0.27450980390000002" alpha="1" colorSpace="calibratedRGB"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                    <state key="normal" title="Save">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                    <connections>
+                        <action selector="saveFilterTouchUpInside:" destination="-1" eventType="touchUpInside" id="CgG-sZ-ecc"/>
+                    </connections>
+                </button>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Worker" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="GWo-mA-65g">
+                    <rect key="frame" x="20" y="204" width="271" height="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Departments" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="d1S-RH-ygu">
+                    <rect key="frame" x="19" y="124" width="250" height="30"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="19"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Departments" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="UZZ-sJ-5DU">
+                    <rect key="frame" x="20" y="154" width="271" height="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Facilities" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="fge-rX-kzE">
+                    <rect key="frame" x="20" y="100" width="271" height="17"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="2u5-y4-veY" firstAttribute="leading" secondItem="d1S-RH-ygu" secondAttribute="trailing" constant="5" id="3Wr-3x-2VX"/>
+                <constraint firstItem="Fvo-W2-I9J" firstAttribute="leading" secondItem="kaY-8l-dLI" secondAttribute="trailing" constant="5" id="8R1-jY-qIM"/>
+                <constraint firstItem="vbI-aa-Vze" firstAttribute="leading" secondItem="axQ-n6-WCx" secondAttribute="trailing" constant="5" id="HOe-S8-GVw"/>
+            </constraints>
+        </view>
+    </objects>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4"/>
+    </simulatedMetricsContainer>
+</document>

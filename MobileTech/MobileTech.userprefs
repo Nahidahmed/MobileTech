@@ -1,0 +1,46 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.IPhone6.8.1" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MobileTech.iOS/Screens/MyProfileViewController.cs">
+    <Files>
+      <File FileName="MobileTech.iOS/Screens/MyProfileViewController.cs" Line="43" Column="43" />
+      <File FileName="MobileTech.Core/Code/Consts.cs" Line="1" Column="1" />
+      <File FileName="MobileTech.iOS/Screens/LoginViewController.cs" Line="25" Column="25" />
+      <File FileName="MobileTech.iOS/Data/MultiSelectTableSource.cs" Line="1" Column="1" />
+      <File FileName="MobileTech.iOS/Screens/MultiSelectListScreen.cs" Line="1" Column="1" />
+      <File FileName="MobileTech.Core/Data/Repository.cs" Line="1" Column="1" />
+      <File FileName="MobileTech.Core/Configuration/Configuration.cs" Line="19" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="MobileTech.Core" expanded="True">
+            <Node name="Code" expanded="True" />
+            <Node name="Configuration" expanded="True" />
+            <Node name="Data" expanded="True" />
+          </Node>
+          <Node name="MobileTech.iOS" expanded="True">
+            <Node name="Data" expanded="True" />
+            <Node name="Screens" expanded="True">
+              <Node name="MyProfileViewController_iPhone.xib" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="/Users/stcroix/Projects/MobileTech/MobileTech.iOS/Screens/LoginViewController.cs" line="641" column="1" />
+      <Breakpoint file="/Users/stcroix/Projects/MobileTech/MobileTech.iOS/Screens/LoginViewController.cs" line="699" column="1" />
+      <Breakpoint file="/Users/stcroix/Projects/MobileTech/MobileTech.iOS/Screens/LoginViewController.cs" line="171" column="1" />
+      <Breakpoint file="/Users/stcroix/Projects/MobileTech/MobileTech.Core/Code/WorkOrderAction.cs" line="165" column="1" />
+      <Breakpoint file="/Users/Projects/MobileTech/550/MobileTech/MobileTech.Core/Data/Repository.cs" line="1253" column="1" />
+      <Breakpoint file="/Users/Projects/MobileTech/550/MobileTech/MobileTech.iOS/Screens/MyProfileViewController.cs" line="164" column="17" />
+      <Breakpoint file="/Users/Projects/MobileTech/550/MobileTech/MobileTech.iOS/Screens/MultiSelectListScreen.cs" line="27" column="1" />
+      <Breakpoint file="/Users/stcroix/Projects/Updated MT/MobileTech/MobileTech.iOS/Screens/MyProfileViewController.cs" line="102" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches>
+    <Watch file="MobileTech.iOS/Screens/WoEditorViewController.cs" line="355" offsetX="524" offsetY="5310" expression="this.OWSButtonText" liveUpdate="False" />
+  </MonoDevelop.Ide.DebuggingService.PinnedWatches>
+</Properties>

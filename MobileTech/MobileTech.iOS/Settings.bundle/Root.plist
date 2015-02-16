@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PreferenceSpecifiers</key>
+	<array>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>User Name</string>
+			<key>Key</key>
+			<string>txtUserName</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Password</string>
+			<key>IsSecure</key>
+			<true/>
+			<key>Key</key>
+			<string>txtPassWord</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>txtServerURL</string>
+		</dict>
+		<dict>
+			<key>Key</key>
+			<string>localBuildNo</string>
+			<key>DefaultValue</key>
+			<string>100</string>
+		</dict>
+		<dict>
+			<key>Type</key>
+			<string>PSTextFieldSpecifier</string>
+			<key>Title</key>
+			<string>Code/URL</string>
+			<key>Key</key>
+			<string>txtCodeURL</string>
+		</dict>
+	</array>
+	<key>StringsTable</key>
+	<string>Root</string>
+</dict>
+</plist>

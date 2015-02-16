@@ -1,0 +1,406 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		11BEB8690000000000000000 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 154FC5070000000000000000 /* UIKit.framework */; };
+		33545B9C0000000000000000 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36E5683A0000000000000000 /* MapKit.framework */; };
+		887C43400000000000000000 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C18D0D200000000000000000 /* Foundation.framework */; };
+		3BF2A67D0000000000000000 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F83B31B0000000000000000 /* CoreGraphics.framework */; };
+		10A065FA0000000000000000 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 143172980000000000000000 /* Default-568h@2x.png */; };
+		25D3CE920000000000000000 /* AppIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = 2964DB300000000000000000 /* AppIcon.png */; };
+		13FE8F7C0000000000000000 /* BtnBg.png in Resources */ = {isa = PBXBuildFile; fileRef = 178F9C1A0000000000000000 /* BtnBg.png */; };
+		377E89CC0000000000000000 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 8BB1F8E00000000000000000 /* icon.png */; };
+		33ED7D2E0000000000000000 /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = C4C2C2C00000000000000000 /* logo.png */; };
+		305C70900000000000000000 /* mTech.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = FDD38CA00000000000000000 /* mTech.sqlite */; };
+		2CCB63F20000000000000000 /* WsMsgConnectorQueue.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 136E45680000000000000000 /* WsMsgConnectorQueue.sqlite */; };
+		293A57540000000000000000 /* Root.plist in Resources */ = {isa = PBXBuildFile; fileRef = 16FF52060000000000000000 /* Root.plist */; };
+		25A94AB60000000000000000 /* Icon-60@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A905EA40000000000000000 /* Icon-60@2x.png */; };
+		22183E180000000000000000 /* leftBarImage.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E216B420000000000000000 /* leftBarImage.png */; };
+		1E87317A0000000000000000 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 21B277E00000000000000000 /* Info.plist */; };
+		1AF624DC0000000000000000 /* Entitlements.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2543847E0000000000000000 /* Entitlements.plist */; };
+		1765183E0000000000000000 /* LoginViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28D4911C0000000000000000 /* LoginViewController_iPad.xib */; };
+		13D40BA00000000000000000 /* LoginViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C659DBA0000000000000000 /* LoginViewController_iPhone.xib */; };
+		1042FF020000000000000000 /* SelectListScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF6AA580000000000000000 /* SelectListScreen.xib */; };
+		CB1F26400000000000000000 /* WoEditorViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3387B6F60000000000000000 /* WoEditorViewController_iPhone.xib */; };
+		920E5C600000000000000000 /* WoEditorViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3718C3940000000000000000 /* WoEditorViewController_iPad.xib */; };
+		58FD92800000000000000000 /* WkOrderListViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AA9D0320000000000000000 /* WkOrderListViewController_iPad.xib */; };
+		1FECC8A00000000000000000 /* WkOrderListViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E3ADCD00000000000000000 /* WkOrderListViewController_iPhone.xib */; };
+		3E6DBFEC0000000000000000 /* CustomWOTableView_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CBE96E00000000000000000 /* CustomWOTableView_iPad.xib */; };
+		3ADCB34E0000000000000000 /* CustomWOTableView_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 55CF60C00000000000000000 /* CustomWOTableView_iPhone.xib */; };
+		374BA6B00000000000000000 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8EE02AA00000000000000000 /* MenuViewController.xib */; };
+		33BA9A120000000000000000 /* TimeEntriesViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = C7F0F4800000000000000000 /* TimeEntriesViewController_iPad.xib */; };
+		30298D740000000000000000 /* TimeEntriesViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 10101BE60000000000000000 /* TimeEntriesViewController_iPhone.xib */; };
+		2C9880D60000000000000000 /* MyProfileViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 13A128840000000000000000 /* MyProfileViewController_iPhone.xib */; };
+		290774380000000000000000 /* MyProfileViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 173235220000000000000000 /* MyProfileViewController_iPad.xib */; };
+		2576679A0000000000000000 /* MultiSelectListScreen_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1AC341C00000000000000000 /* MultiSelectListScreen_iPhone.xib */; };
+		21E55AFC0000000000000000 /* MultiSelectListScreen_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1E544E5E0000000000000000 /* MultiSelectListScreen_iPad.xib */; };
+		2FC3C73C0000000000000000 /* AppDelegate.h in Sources */ = {isa = PBXBuildFile; fileRef = 1D88C1EE0000000000000000 /* AppDelegate.h */; };
+		2C32BA9E0000000000000000 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2119CE8C0000000000000000 /* AppDelegate.m */; };
+		28A1AE000000000000000000 /* LoginViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 24AADB2A0000000000000000 /* LoginViewController.h */; };
+		2510A1620000000000000000 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 283BE7C80000000000000000 /* LoginViewController.m */; };
+		217F94C40000000000000000 /* SelectListScreen.h in Sources */ = {isa = PBXBuildFile; fileRef = 2F5E01040000000000000000 /* SelectListScreen.h */; };
+		1DEE88260000000000000000 /* SelectListScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 32EF0DA20000000000000000 /* SelectListScreen.m */; };
+		1A5D7B880000000000000000 /* WoEditorViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 36801A400000000000000000 /* WoEditorViewController.h */; };
+		16CC6EEA0000000000000000 /* WoEditorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A1126DE0000000000000000 /* WoEditorViewController.m */; };
+		133B624C0000000000000000 /* WkOrderListViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 3DA2337C0000000000000000 /* WkOrderListViewController.h */; };
+		FAA55AE00000000000000000 /* WkOrderListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 133401A00000000000000000 /* WkOrderListViewController.m */; };
+		C19491000000000000000000 /* CustomWOTableView.h in Sources */ = {isa = PBXBuildFile; fileRef = 4C44CB800000000000000000 /* CustomWOTableView.h */; };
+		8883C7200000000000000000 /* CustomWOTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 855595600000000000000000 /* CustomWOTableView.m */; };
+		4F72FD400000000000000000 /* MenuViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = BE665F400000000000000000 /* MenuViewController.h */; };
+		166233600000000000000000 /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F77729200000000000000000 /* MenuViewController.m */; };
+		3DD516980000000000000000 /* TimeEntriesViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 13087F300000000000000000 /* TimeEntriesViewController.h */; };
+		3A4409FA0000000000000000 /* TimeEntriesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 16998BCE0000000000000000 /* TimeEntriesViewController.m */; };
+		36B2FD5C0000000000000000 /* MyProfileViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 1A2A986C0000000000000000 /* MyProfileViewController.h */; };
+		3321F0BE0000000000000000 /* MyProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DBBA50A0000000000000000 /* MyProfileViewController.m */; };
+		2F90E4200000000000000000 /* MultiSelectListScreen.h in Sources */ = {isa = PBXBuildFile; fileRef = 214CB1A80000000000000000 /* MultiSelectListScreen.h */; };
+		2BFFD7820000000000000000 /* MultiSelectListScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DDBE460000000000000000 /* MultiSelectListScreen.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1005CFE00000000000000000 /* MobileTech.iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "MobileTech.iOS.app"; path = "MobileTech.iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		154FC5070000000000000000 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "UIKit.framework"; path = "System/Library/Frameworks/UIKit.framework"; sourceTree = SDKROOT; };
+		36E5683A0000000000000000 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "MapKit.framework"; path = "System/Library/Frameworks/MapKit.framework"; sourceTree = SDKROOT; };
+		C18D0D200000000000000000 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "Foundation.framework"; path = "System/Library/Frameworks/Foundation.framework"; sourceTree = SDKROOT; };
+		3F83B31B0000000000000000 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "CoreGraphics.framework"; path = "System/Library/Frameworks/CoreGraphics.framework"; sourceTree = SDKROOT; };
+		143172980000000000000000 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2964DB300000000000000000 /* AppIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon.png"; path = "AppIcon.png"; sourceTree = "<group>"; };
+		178F9C1A0000000000000000 /* BtnBg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "BtnBg.png"; path = "BtnBg.png"; sourceTree = "<group>"; };
+		8BB1F8E00000000000000000 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "icon.png"; path = "icon.png"; sourceTree = "<group>"; };
+		C4C2C2C00000000000000000 /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "logo.png"; path = "logo.png"; sourceTree = "<group>"; };
+		FDD38CA00000000000000000 /* mTech.sqlite */ = {isa = PBXFileReference; name = "mTech.sqlite"; path = "mTech.sqlite"; sourceTree = "<group>"; };
+		136E45680000000000000000 /* WsMsgConnectorQueue.sqlite */ = {isa = PBXFileReference; name = "WsMsgConnectorQueue.sqlite"; path = "WsMsgConnectorQueue.sqlite"; sourceTree = "<group>"; };
+		16FF52060000000000000000 /* Root.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Root.plist"; path = "Settings.bundle/Root.plist"; sourceTree = "<group>"; };
+		1A905EA40000000000000000 /* Icon-60@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-60@2x.png"; path = "Icon-60@2x.png"; sourceTree = "<group>"; };
+		1E216B420000000000000000 /* leftBarImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "leftBarImage.png"; path = "leftBarImage.png"; sourceTree = "<group>"; };
+		21B277E00000000000000000 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info.plist"; path = "Info.plist"; sourceTree = "<group>"; };
+		2543847E0000000000000000 /* Entitlements.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Entitlements.plist"; path = "Entitlements.plist"; sourceTree = "<group>"; };
+		28D4911C0000000000000000 /* LoginViewController_iPad.xib */ = {isa = PBXFileReference; name = "LoginViewController_iPad.xib"; path = "Screens/LoginViewController_iPad.xib"; sourceTree = "<group>"; };
+		2C659DBA0000000000000000 /* LoginViewController_iPhone.xib */ = {isa = PBXFileReference; name = "LoginViewController_iPhone.xib"; path = "Screens/LoginViewController_iPhone.xib"; sourceTree = "<group>"; };
+		2FF6AA580000000000000000 /* SelectListScreen.xib */ = {isa = PBXFileReference; name = "SelectListScreen.xib"; path = "Screens/SelectListScreen.xib"; sourceTree = "<group>"; };
+		3387B6F60000000000000000 /* WoEditorViewController_iPhone.xib */ = {isa = PBXFileReference; name = "WoEditorViewController_iPhone.xib"; path = "Screens/WoEditorViewController_iPhone.xib"; sourceTree = "<group>"; };
+		3718C3940000000000000000 /* WoEditorViewController_iPad.xib */ = {isa = PBXFileReference; name = "WoEditorViewController_iPad.xib"; path = "Screens/WoEditorViewController_iPad.xib"; sourceTree = "<group>"; };
+		3AA9D0320000000000000000 /* WkOrderListViewController_iPad.xib */ = {isa = PBXFileReference; name = "WkOrderListViewController_iPad.xib"; path = "Screens/WkOrderListViewController_iPad.xib"; sourceTree = "<group>"; };
+		3E3ADCD00000000000000000 /* WkOrderListViewController_iPhone.xib */ = {isa = PBXFileReference; name = "WkOrderListViewController_iPhone.xib"; path = "Screens/WkOrderListViewController_iPhone.xib"; sourceTree = "<group>"; };
+		1CBE96E00000000000000000 /* CustomWOTableView_iPad.xib */ = {isa = PBXFileReference; name = "CustomWOTableView_iPad.xib"; path = "Screens/CustomWOTableView_iPad.xib"; sourceTree = "<group>"; };
+		55CF60C00000000000000000 /* CustomWOTableView_iPhone.xib */ = {isa = PBXFileReference; name = "CustomWOTableView_iPhone.xib"; path = "Screens/CustomWOTableView_iPhone.xib"; sourceTree = "<group>"; };
+		8EE02AA00000000000000000 /* MenuViewController.xib */ = {isa = PBXFileReference; name = "MenuViewController.xib"; path = "Screens/MenuViewController.xib"; sourceTree = "<group>"; };
+		C7F0F4800000000000000000 /* TimeEntriesViewController_iPad.xib */ = {isa = PBXFileReference; name = "TimeEntriesViewController_iPad.xib"; path = "Screens/TimeEntriesViewController_iPad.xib"; sourceTree = "<group>"; };
+		10101BE60000000000000000 /* TimeEntriesViewController_iPhone.xib */ = {isa = PBXFileReference; name = "TimeEntriesViewController_iPhone.xib"; path = "Screens/TimeEntriesViewController_iPhone.xib"; sourceTree = "<group>"; };
+		13A128840000000000000000 /* MyProfileViewController_iPhone.xib */ = {isa = PBXFileReference; name = "MyProfileViewController_iPhone.xib"; path = "Screens/MyProfileViewController_iPhone.xib"; sourceTree = "<group>"; };
+		173235220000000000000000 /* MyProfileViewController_iPad.xib */ = {isa = PBXFileReference; name = "MyProfileViewController_iPad.xib"; path = "Screens/MyProfileViewController_iPad.xib"; sourceTree = "<group>"; };
+		1AC341C00000000000000000 /* MultiSelectListScreen_iPhone.xib */ = {isa = PBXFileReference; name = "MultiSelectListScreen_iPhone.xib"; path = "Screens/MultiSelectListScreen_iPhone.xib"; sourceTree = "<group>"; };
+		1E544E5E0000000000000000 /* MultiSelectListScreen_iPad.xib */ = {isa = PBXFileReference; name = "MultiSelectListScreen_iPad.xib"; path = "Screens/MultiSelectListScreen_iPad.xib"; sourceTree = "<group>"; };
+		1D88C1EE0000000000000000 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "AppDelegate.h"; path = "AppDelegate.h"; sourceTree = "<group>"; };
+		2119CE8C0000000000000000 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate.m"; path = "AppDelegate.m"; sourceTree = "<group>"; };
+		24AADB2A0000000000000000 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "LoginViewController.h"; path = "LoginViewController.h"; sourceTree = "<group>"; };
+		283BE7C80000000000000000 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "LoginViewController.m"; path = "LoginViewController.m"; sourceTree = "<group>"; };
+		2F5E01040000000000000000 /* SelectListScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "SelectListScreen.h"; path = "SelectListScreen.h"; sourceTree = "<group>"; };
+		32EF0DA20000000000000000 /* SelectListScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "SelectListScreen.m"; path = "SelectListScreen.m"; sourceTree = "<group>"; };
+		36801A400000000000000000 /* WoEditorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WoEditorViewController.h"; path = "WoEditorViewController.h"; sourceTree = "<group>"; };
+		3A1126DE0000000000000000 /* WoEditorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WoEditorViewController.m"; path = "WoEditorViewController.m"; sourceTree = "<group>"; };
+		3DA2337C0000000000000000 /* WkOrderListViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "WkOrderListViewController.h"; path = "WkOrderListViewController.h"; sourceTree = "<group>"; };
+		133401A00000000000000000 /* WkOrderListViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "WkOrderListViewController.m"; path = "WkOrderListViewController.m"; sourceTree = "<group>"; };
+		4C44CB800000000000000000 /* CustomWOTableView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "CustomWOTableView.h"; path = "CustomWOTableView.h"; sourceTree = "<group>"; };
+		855595600000000000000000 /* CustomWOTableView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "CustomWOTableView.m"; path = "CustomWOTableView.m"; sourceTree = "<group>"; };
+		BE665F400000000000000000 /* MenuViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MenuViewController.h"; path = "MenuViewController.h"; sourceTree = "<group>"; };
+		F77729200000000000000000 /* MenuViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MenuViewController.m"; path = "MenuViewController.m"; sourceTree = "<group>"; };
+		13087F300000000000000000 /* TimeEntriesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "TimeEntriesViewController.h"; path = "TimeEntriesViewController.h"; sourceTree = "<group>"; };
+		16998BCE0000000000000000 /* TimeEntriesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "TimeEntriesViewController.m"; path = "TimeEntriesViewController.m"; sourceTree = "<group>"; };
+		1A2A986C0000000000000000 /* MyProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MyProfileViewController.h"; path = "MyProfileViewController.h"; sourceTree = "<group>"; };
+		1DBBA50A0000000000000000 /* MyProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MyProfileViewController.m"; path = "MyProfileViewController.m"; sourceTree = "<group>"; };
+		214CB1A80000000000000000 /* MultiSelectListScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "MultiSelectListScreen.h"; path = "MultiSelectListScreen.h"; sourceTree = "<group>"; };
+		24DDBE460000000000000000 /* MultiSelectListScreen.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = "MultiSelectListScreen.m"; path = "MultiSelectListScreen.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		19F7B5500000000000000000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				11BEB8690000000000000000 /* UIKit.framework in Frameworks */,
+				33545B9C0000000000000000 /* MapKit.framework in Frameworks */,
+				887C43400000000000000000 /* Foundation.framework in Frameworks */,
+				3BF2A67D0000000000000000 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		36FB9B800000000000000000 = {
+			isa = PBXGroup;
+			children = (
+				1C552E6D0000000000000000 /* MobileTech.iOS */,
+				270854470000000000000000 /* Frameworks */,
+				1AEC15A00000000000000000 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AEC15A00000000000000000 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1005CFE00000000000000000 /* MobileTech.iOS.app */,
+			);
+			name = "Products";
+			sourceTree = "<group>";
+		};
+		270854470000000000000000 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				154FC5070000000000000000 /* UIKit.framework */,
+				36E5683A0000000000000000 /* MapKit.framework */,
+				C18D0D200000000000000000 /* Foundation.framework */,
+				3F83B31B0000000000000000 /* CoreGraphics.framework */,
+			);
+			name = "Frameworks";
+			sourceTree = "<group>";
+		};
+		1C552E6D0000000000000000 /* MobileTech.iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1D88C1EE0000000000000000 /* AppDelegate.h */,
+				2964DB300000000000000000 /* AppIcon.png */,
+				178F9C1A0000000000000000 /* BtnBg.png */,
+				4C44CB800000000000000000 /* CustomWOTableView.h */,
+				143172980000000000000000 /* Default-568h@2x.png */,
+				2543847E0000000000000000 /* Entitlements.plist */,
+				8BB1F8E00000000000000000 /* icon.png */,
+				1A905EA40000000000000000 /* Icon-60@2x.png */,
+				21B277E00000000000000000 /* Info.plist */,
+				1E216B420000000000000000 /* leftBarImage.png */,
+				24AADB2A0000000000000000 /* LoginViewController.h */,
+				C4C2C2C00000000000000000 /* logo.png */,
+				BE665F400000000000000000 /* MenuViewController.h */,
+				FDD38CA00000000000000000 /* mTech.sqlite */,
+				214CB1A80000000000000000 /* MultiSelectListScreen.h */,
+				1A2A986C0000000000000000 /* MyProfileViewController.h */,
+				2F5E01040000000000000000 /* SelectListScreen.h */,
+				13087F300000000000000000 /* TimeEntriesViewController.h */,
+				3DA2337C0000000000000000 /* WkOrderListViewController.h */,
+				36801A400000000000000000 /* WoEditorViewController.h */,
+				136E45680000000000000000 /* WsMsgConnectorQueue.sqlite */,
+				21954FCC0000000000000000 /* Screens */,
+				6EEE2B900000000000000000 /* Settings.bundle */,
+				3C3BBCDF0000000000000000 /* Supporting Files */,
+			);
+			name = "MobileTech.iOS";
+			sourceTree = "<group>";
+		};
+		6EEE2B900000000000000000 /* Settings.bundle */ = {
+			isa = PBXGroup;
+			children = (
+				16FF52060000000000000000 /* Root.plist */,
+			);
+			name = "Settings.bundle";
+			sourceTree = "<group>";
+		};
+		21954FCC0000000000000000 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				1CBE96E00000000000000000 /* CustomWOTableView_iPad.xib */,
+				55CF60C00000000000000000 /* CustomWOTableView_iPhone.xib */,
+				28D4911C0000000000000000 /* LoginViewController_iPad.xib */,
+				2C659DBA0000000000000000 /* LoginViewController_iPhone.xib */,
+				8EE02AA00000000000000000 /* MenuViewController.xib */,
+				1E544E5E0000000000000000 /* MultiSelectListScreen_iPad.xib */,
+				1AC341C00000000000000000 /* MultiSelectListScreen_iPhone.xib */,
+				173235220000000000000000 /* MyProfileViewController_iPad.xib */,
+				13A128840000000000000000 /* MyProfileViewController_iPhone.xib */,
+				2FF6AA580000000000000000 /* SelectListScreen.xib */,
+				C7F0F4800000000000000000 /* TimeEntriesViewController_iPad.xib */,
+				10101BE60000000000000000 /* TimeEntriesViewController_iPhone.xib */,
+				3AA9D0320000000000000000 /* WkOrderListViewController_iPad.xib */,
+				3E3ADCD00000000000000000 /* WkOrderListViewController_iPhone.xib */,
+				3718C3940000000000000000 /* WoEditorViewController_iPad.xib */,
+				3387B6F60000000000000000 /* WoEditorViewController_iPhone.xib */,
+			);
+			name = "Screens";
+			sourceTree = "<group>";
+		};
+		3C3BBCDF0000000000000000 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2119CE8C0000000000000000 /* AppDelegate.m */,
+				855595600000000000000000 /* CustomWOTableView.m */,
+				283BE7C80000000000000000 /* LoginViewController.m */,
+				F77729200000000000000000 /* MenuViewController.m */,
+				24DDBE460000000000000000 /* MultiSelectListScreen.m */,
+				1DBBA50A0000000000000000 /* MyProfileViewController.m */,
+				32EF0DA20000000000000000 /* SelectListScreen.m */,
+				16998BCE0000000000000000 /* TimeEntriesViewController.m */,
+				133401A00000000000000000 /* WkOrderListViewController.m */,
+				3A1126DE0000000000000000 /* WoEditorViewController.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		31BB7A210000000000000000 /* MobileTech.iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17150D0E0000000000000000 /* Build configuration list for PBXNativeTarget "MobileTech.iOS" */;
+			buildPhases = (
+				286ECAE40000000000000000 /* Sources */,
+				19F7B5500000000000000000 /* Frameworks */,
+				5C2BC4400000000000000000 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "MobileTech.iOS";
+			productName = "MobileTech.iOS";
+			productReference = 1005CFE00000000000000000 /* MobileTech.iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		310BD7060000000000000000 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 3C6E9FFB0000000000000000 /* Build configuration list for PBXProject "MobileTech.iOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 36FB9B800000000000000000;
+			productRefGroup = 1AEC15A00000000000000000 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				31BB7A210000000000000000 /* MobileTech.iOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C2BC4400000000000000000 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				10A065FA0000000000000000 /* Default-568h@2x.png in Resources */,
+				25D3CE920000000000000000 /* AppIcon.png in Resources */,
+				13FE8F7C0000000000000000 /* BtnBg.png in Resources */,
+				377E89CC0000000000000000 /* icon.png in Resources */,
+				33ED7D2E0000000000000000 /* logo.png in Resources */,
+				305C70900000000000000000 /* mTech.sqlite in Resources */,
+				2CCB63F20000000000000000 /* WsMsgConnectorQueue.sqlite in Resources */,
+				293A57540000000000000000 /* Root.plist in Resources */,
+				25A94AB60000000000000000 /* Icon-60@2x.png in Resources */,
+				22183E180000000000000000 /* leftBarImage.png in Resources */,
+				1E87317A0000000000000000 /* Info.plist in Resources */,
+				1AF624DC0000000000000000 /* Entitlements.plist in Resources */,
+				1765183E0000000000000000 /* LoginViewController_iPad.xib in Resources */,
+				13D40BA00000000000000000 /* LoginViewController_iPhone.xib in Resources */,
+				1042FF020000000000000000 /* SelectListScreen.xib in Resources */,
+				CB1F26400000000000000000 /* WoEditorViewController_iPhone.xib in Resources */,
+				920E5C600000000000000000 /* WoEditorViewController_iPad.xib in Resources */,
+				58FD92800000000000000000 /* WkOrderListViewController_iPad.xib in Resources */,
+				1FECC8A00000000000000000 /* WkOrderListViewController_iPhone.xib in Resources */,
+				3E6DBFEC0000000000000000 /* CustomWOTableView_iPad.xib in Resources */,
+				3ADCB34E0000000000000000 /* CustomWOTableView_iPhone.xib in Resources */,
+				374BA6B00000000000000000 /* MenuViewController.xib in Resources */,
+				33BA9A120000000000000000 /* TimeEntriesViewController_iPad.xib in Resources */,
+				30298D740000000000000000 /* TimeEntriesViewController_iPhone.xib in Resources */,
+				2C9880D60000000000000000 /* MyProfileViewController_iPhone.xib in Resources */,
+				290774380000000000000000 /* MyProfileViewController_iPad.xib in Resources */,
+				2576679A0000000000000000 /* MultiSelectListScreen_iPhone.xib in Resources */,
+				21E55AFC0000000000000000 /* MultiSelectListScreen_iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		286ECAE40000000000000000 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FC3C73C0000000000000000 /* AppDelegate.h in Sources */,
+				2C32BA9E0000000000000000 /* AppDelegate.m in Sources */,
+				28A1AE000000000000000000 /* LoginViewController.h in Sources */,
+				2510A1620000000000000000 /* LoginViewController.m in Sources */,
+				217F94C40000000000000000 /* SelectListScreen.h in Sources */,
+				1DEE88260000000000000000 /* SelectListScreen.m in Sources */,
+				1A5D7B880000000000000000 /* WoEditorViewController.h in Sources */,
+				16CC6EEA0000000000000000 /* WoEditorViewController.m in Sources */,
+				133B624C0000000000000000 /* WkOrderListViewController.h in Sources */,
+				FAA55AE00000000000000000 /* WkOrderListViewController.m in Sources */,
+				C19491000000000000000000 /* CustomWOTableView.h in Sources */,
+				8883C7200000000000000000 /* CustomWOTableView.m in Sources */,
+				4F72FD400000000000000000 /* MenuViewController.h in Sources */,
+				166233600000000000000000 /* MenuViewController.m in Sources */,
+				3DD516980000000000000000 /* TimeEntriesViewController.h in Sources */,
+				3A4409FA0000000000000000 /* TimeEntriesViewController.m in Sources */,
+				36B2FD5C0000000000000000 /* MyProfileViewController.h in Sources */,
+				3321F0BE0000000000000000 /* MyProfileViewController.m in Sources */,
+				2F90E4200000000000000000 /* MultiSelectListScreen.h in Sources */,
+				2BFFD7820000000000000000 /* MultiSelectListScreen.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		822763A00000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				SDKROOT = iphoneos;
+			};
+			name = MonoTouch;
+		};
+		491699C00000000000000000 /* MonoTouch */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				PRODUCT_NAME = "MobileTech.iOS";
+				WRAPPER_EXTENSION = app;
+			};
+			name = MonoTouch;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C6E9FFB0000000000000000 /* Build configuration list for PBXProject "MobileTech.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				822763A00000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+		17150D0E0000000000000000 /* Build configuration list for PBXNativeTarget "MobileTech.iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				491699C00000000000000000 /* MonoTouch */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = MonoTouch;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 310BD7060000000000000000 /* Project object */;
+}

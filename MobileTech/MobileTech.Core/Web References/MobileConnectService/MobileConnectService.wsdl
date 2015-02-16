@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:s0="http://services.mainspringhealth.com" xmlns:tns="http://services.mainspringhealth.com" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" targetNamespace="http://services.mainspringhealth.com" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xs:schema elementFormDefault="qualified" targetNamespace="http://services.mainspringhealth.com" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+      <xs:element name="GetUrl">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="code" type="xs:string" />
+            <xs:element minOccurs="0" maxOccurs="1" name="appName" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+      <xs:element name="GetUrlResponse">
+        <xs:complexType>
+          <xs:sequence>
+            <xs:element minOccurs="0" maxOccurs="1" name="GetUrlResult" type="xs:string" />
+          </xs:sequence>
+        </xs:complexType>
+      </xs:element>
+    </xs:schema>
+  </types>
+  <message name="GetUrlSoapIn">
+    <part name="parameters" element="tns:GetUrl" />
+  </message>
+  <message name="GetUrlSoapOut">
+    <part name="parameters" element="tns:GetUrlResponse" />
+  </message>
+  <portType name="MobileConnectServiceSoap">
+    <operation name="GetUrl">
+      <input message="tns:GetUrlSoapIn" />
+      <output message="tns:GetUrlSoapOut" />
+    </operation>
+  </portType>
+  <binding name="MobileConnectServiceSoap" type="tns:MobileConnectServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="GetUrl">
+      <soap:operation soapAction="http://services.mainspringhealth.com/GetUrl" style="document" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <binding name="MobileConnectServiceSoap12" type="tns:MobileConnectServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="GetUrl">
+      <soap12:operation soapAction="http://services.mainspringhealth.com/GetUrl" style="document" />
+      <input>
+        <soap12:body use="literal" />
+      </input>
+      <output>
+        <soap12:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="MobileConnectService">
+    <port name="MobileConnectServiceSoap" binding="tns:MobileConnectServiceSoap">
+      <soap:address location="http://192.168.1.95/MC/MobileConnectService.asmx" />
+    </port>
+    <port name="MobileConnectServiceSoap12" binding="tns:MobileConnectServiceSoap12">
+      <soap12:address location="http://192.168.1.95/MC/MobileConnectService.asmx" />
+    </port>
+  </service>
+</definitions>
