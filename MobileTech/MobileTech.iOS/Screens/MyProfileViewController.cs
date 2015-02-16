@@ -360,10 +360,10 @@ namespace MobileTech.iOS
 		{
 			bool isPageValid = true;
 			if (!requiredFacilities.Hidden) {
-				ShowAlertMessage ("Facilities are required field, please select Facilities");
+				ShowAlertMessage ("Facilities is a required field. Please select a Facility.");
 				isPageValid = false;
 			}else if (!requiredDepartments.Hidden){
-				ShowAlertMessage ("Departments are required field, please select Departments");
+				ShowAlertMessage ("Departments is a required field. Please select a Department.");
 				isPageValid = false;
 			}else if(!requiredWorkers.Hidden){
 				ShowAlertMessage ("Workers are required field, please select Workers");
